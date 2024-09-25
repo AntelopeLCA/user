@@ -102,7 +102,8 @@ MethodDescription: Indicators generated specifically for use in USEEIO models
  blackbook_origin: lcacommons.useeio.2.0.1
 '''
 _ = enum(lcias[0].factors())  # factors() is part of the quantity interface
-# used in this fashion, the underscore '_' suppresses the display of the output to the screen
+# used in this fashion, the underscore '_' suppresses the display of the output to the screen,
+# which would be redundant since the enum function is already displaying the list
 '''
 GET https://bk.vault.lc/lcacommons.useeio.2.0.1/21f680ec-d6a2-30f6-90ae-040e50aabed3/factors.. 200 [0.26 sec]
 Imported 7 factors for [lcacommons.useeio.2.0.1] USEEIO - LCIA Method, Commercial Construction and Demolition Debris [kg] [USEEIO - LCIA Method]
