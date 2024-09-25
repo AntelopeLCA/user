@@ -1,12 +1,12 @@
 # Using LCA Data
 
-The workflow for performing elementary LCA activities is:
+The workflow for performing simple LCA activities is:
 
 1. obtain access to a data **resource**
 2. query the resource to receive **references** to LCA data objects (quantities, flows, processes, and fragments)
 3. use the built-in methods of the references to find out information about the objects.
 
-Here's a simple example from scratch, using `antelope-core`:
+Here's a simple example from scratch, using `antelope-core`, without any local data:
 
 ### 0. Connect to authentication server server
 
