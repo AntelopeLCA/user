@@ -45,4 +45,4 @@ After that, there is a three-step process to using Antelope to conduct LCA:
 3. Ask the objects questions about themselves, and their relationships to one another.
 
 The role of the query is to provide an abstraction to the LCA data.  The query is responsible for providing the user with *implementations* of the 
-[Antelope interface specification][(https://antelopelca.github.io/antelope/interfaces/abstract.html).  Read more about how to [use LCA data](user_guide/using_lca_data.md).
+[Antelope interface specification](https://antelopelca.github.io/antelope/interfaces/abstract.html).  Read more about how to [use LCA data](user_guide/using_lca_data.md).
