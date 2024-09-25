@@ -36,3 +36,13 @@ cat = antelope_core.LcCatalog()
 cat.blackbook_guest('https://sc.vault.lc/')
 
 ```
+
+## OK, but what then?
+After that, there is a three-step process to using Antelope to conduct LCA:
+
+1. Obtain access to a data resource
+2. Use the [query interface](https://github.com/AntelopeLCA/user/blob/main/user_guide/catalog.md#queries) to retrieve references to LCA data objects
+3. Ask the objects questions about themselves, and their relationships to one another.
+
+The role of the query is to provide an abstraction to the LCA data.  The query is responsible for providing the user with *implementations* of the 
+[Antelope interface specification][(https://antelopelca.github.io/antelope/interfaces/abstract.html).  Read more about how to [use LCA data](using_lca_data.md).
