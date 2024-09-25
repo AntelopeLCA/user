@@ -37,7 +37,8 @@ useeio
 '''
 ```
 
-The resource's description shows that it provides access to all five READ-ONLY interfaces.  Note that the `get_blackbook_resources` command returns
+The resource's description shows that it provides access to all five READ-ONLY interfaces: 'index', 'quantity', 'basic', 'background', 'exchange'.  
+Note that the `get_blackbook_resources` command returns
 a *list* of resources, although in this case the list has only one entry.  In general, many different resources may be required to implement
 the various interfaces.
 
